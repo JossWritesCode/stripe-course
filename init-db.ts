@@ -2,9 +2,17 @@
 import {COURSES, findLessonsForCourse} from './db-data';
 
 import * as firebase from 'firebase';
+import 'firebase/firestore';
 
 var config = {
     // TODO copy-paste here your own config, taken from the Firebase dashboard
+    apiKey: "AIzaSyAsSdSFPBPB5alyiTpkVVohO-1Bc7pbLig",
+    authDomain: "stripe-course-fa704.firebaseapp.com",
+    databaseURL: "https://stripe-course-fa704.firebaseio.com",
+    projectId: "stripe-course-fa704",
+    storageBucket: "stripe-course-fa704.appspot.com",
+    messagingSenderId: "164014418320",
+    appId: "1:164014418320:web:391e1fb7ed69358fd26b15"
 };
 
 console.log("Uploading data to the database with the following config:\n");
